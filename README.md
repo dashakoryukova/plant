@@ -1,2 +1,0 @@
-# plant
-android plants project

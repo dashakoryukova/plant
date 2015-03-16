@@ -1,1 +1,1 @@
-D:\Study\Projects\andr\app\build\intermediates\classes\debug
+C:\Users\Bublik\AndroidStudioProjects\andr\app\build\intermediates\classes\debug
