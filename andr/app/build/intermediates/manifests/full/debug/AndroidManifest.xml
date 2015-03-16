@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.webster.WebsterActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.webster.ViewActivity"
+            android:label="Просмотр" >
+            <intent-filter>
+                <action android:name=".ViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.webster.AddNewPlant"
+            android:label="Добавить" >
+            <intent-filter>
+                <action android:name=".AddNewPlant" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
