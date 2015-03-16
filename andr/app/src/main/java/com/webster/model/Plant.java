@@ -12,7 +12,8 @@ public class Plant {
     private String description;
     private List<PlantPhoto> plantPhotos;
 
-    public Plant() {
+    public Plant(String id) {
+        this.id=id;
     }
 
     public Plant(String id, String name, String description, List<PlantPhoto> plantPhotos) {

@@ -2,4 +2,8 @@
 <resources>
     <string name="hello">Hello World, WebsterActivity!</string>
     <string name="app_name">Растения</string>
+    <string name="title_activity_plant">Plant</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 </resources>

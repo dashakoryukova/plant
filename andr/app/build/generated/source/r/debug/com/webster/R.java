@@ -15,16 +15,17 @@ public final class R {
         public static final int splash2=0x7f020001;
     }
     public static final class id {
-        public static final int buttonConverter=0x7f060006;
-        public static final int editText=0x7f060002;
-        public static final int editText2=0x7f060004;
-        public static final int gridview=0x7f060008;
-        public static final int imageView=0x7f060009;
-        public static final int lister=0x7f060007;
-        public static final int splashscreen=0x7f060005;
-        public static final int textView=0x7f060001;
-        public static final int textView1=0x7f060000;
-        public static final int textView2=0x7f060003;
+        public static final int addPlant=0x7f060005;
+        public static final int buttonConverter=0x7f060007;
+        public static final int gridview=0x7f060009;
+        public static final int imageView=0x7f06000a;
+        public static final int lister=0x7f060008;
+        public static final int plantsDescription=0x7f060004;
+        public static final int plantsName=0x7f060002;
+        public static final int splashscreen=0x7f060006;
+        public static final int title=0x7f060000;
+        public static final int titleDescription=0x7f060003;
+        public static final int titleName=0x7f060001;
     }
     public static final class layout {
         public static final int addnewplant=0x7f030000;

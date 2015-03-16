@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter plant&apos;s description">
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Name:"
-        android:id="@+id/textView" />
+        android:id="@+id/titleName" />
 
     <EditText
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:inputType="textPersonName"
         android:text="Name"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/plantsName"
         android:layout_gravity="right" />
 
     <TextView
@@ -32,13 +32,19 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Description:"
-        android:id="@+id/textView2" />
+        android:id="@+id/titleDescription" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
         android:ems="10"
-        android:id="@+id/editText2" />
+        android:id="@+id/plantsDescription" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="добавить растение"
+        android:id="@+id/addPlant" />
 
 </LinearLayout><!-- From: file:/D:/Study/Projects/plant/andr/app/src/main/res/layout/addnewplant.xml -->
