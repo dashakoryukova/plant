@@ -36,6 +36,10 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.webster.Plant"
+            android:label="@string/title_activity_plant" >
+        </activity>
     </application>
 
 </manifest>
